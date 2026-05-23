@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malaika Arooj — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">MA<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" onclick="closeMenu()">About</a></li>
+      <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+      <li><a href="#work" onclick="closeMenu()">Work</a></li>
+      <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+<section class="hero" id="home">
+
+  <div class="hero-bg-text">PORTFOLIO</div>
+
+  <div class="hero-content">
+
+    <div class="hero-tag reveal-up">
+      ✦ Available for Freelance & Creative Work
+    </div>
+
+    <h1 class="hero-name reveal-up">
+      <span class="line">Malaika</span>
+      <span class="line italic">Arooj</span>
+    </h1>
+
+    <p class="hero-role reveal-up">
+      Frontend Developer <span>•</span> UI Designer <span>•</span> Creative Thinker
+    </p>
+
+    <p class="hero-desc reveal-up">
+      I build modern, responsive, and visually appealing digital experiences.
+      From elegant websites to creative visual designs, I love turning ideas
+      into polished and meaningful products.
+    </p>
+
+    <div class="hero-actions reveal-up">
+      <a href="#work" class="btn-primary">
+        View Projects
+      </a>
+
+      <a href="#contact" class="btn-ghost">
+        Hire Me →
+      </a>
+    </div>
+
+  </div>
+
+  <div class="hero-image reveal-right">
+
+    <div class="hero-img-wrap">
+
+      <div class="hero-avatar">
+        <img src="profile.png" alt="Malaika Arooj" class="profile-img">
+      </div>
+
+      <div class="hero-badge">
+        <span class="badge-num">3+</span>
+        <span class="badge-txt">
+          Years<br>Experience
+        </span>
+      </div>
+
+      <div class="hero-badge2">
+        <span>10+</span>
+        <span>Projects</span>
+      </div>
+
+      <div class="hero-badge3">
+        <span>✨</span>
+        <span>Creative Designer</span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll Down</span>
+  </div>
+
+</section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>HTML</span><span>✦</span>
+      <span>CSS</span><span>✦</span>
+      <span>JavaScript</span><span>✦</span>
+      <span>Python</span><span>✦</span>
+      <span>PHP</span><span>✦</span>
+      <span>Figma</span><span>✦</span>
+      <span>Canva</span><span>✦</span>
+      <span>Photoshop</span><span>✦</span>
+      <span>HTML</span><span>✦</span>
+      <span>CSS</span><span>✦</span>
+      <span>JavaScript</span><span>✦</span>
+      <span>Python</span><span>✦</span>
+      <span>PHP</span><span>✦</span>
+      <span>Figma</span><span>✦</span>
+      <span>Canva</span><span>✦</span>
+      <span>Photoshop</span><span>✦</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label reveal-up">— About Me</div>
+      <div class="about-grid">
+        <div class="about-left reveal-left">
+          <h2 class="section-title">Turning ideas into <em>elegant</em> digital realities.</h2>
+          <p>Hi! I'm Malaika Arooj, a Computer Science student at Fatima Jinnah Women University with a passion for web development, programming, design, and creative writing. I enjoy building responsive websites, designing visuals, and solving real-world problems through code.</p>
+          <p>When I'm not coding, you'll find me on the sports field or in the kitchen baking something new. I believe great software is crafted with creativity and care — not just built. Let's connect!</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num" data-target="5">0</span><span>+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="3">0</span><span>+</span>
+              <span class="stat-label">Years Exp.</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="4">0</span><span>+</span>
+              <span class="stat-label">Services</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-right reveal-right">
+          <div class="about-card">
+            <div class="about-card-inner">
+              <div class="about-img-placeholder">
+                <div class="about-initials">MA</div>
+                <div class="about-rings">
+                  <div class="ring ring1"></div>
+                  <div class="ring ring2"></div>
+                </div>
+              </div>
+              <div class="about-info">
+                <div class="info-row"><span>📍</span> Rawalpindi, Pakistan</div>
+                <div class="info-row"><span>🎓</span> BSc Computer Science (ongoing)</div>
+                <div class="info-row"><span>💼</span> Open to Freelance Work</div>
+                <div class="info-row"><span>🌐</span> Urdu, English</div>
+              </div>
+              <a href="Malaika_CV.pdf" download class="btn-outline">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label reveal-up">— What I Do</div>
+      <h2 class="section-title reveal-up">Skills & <em>Expertise</em></h2>
+      <div class="skills-grid">
+
+        <div class="skill-card reveal-up" style="--delay:0.1s">
+          <div class="skill-icon">🌐</div>
+          <h3>Frontend Dev</h3>
+          <p>HTML, CSS, JavaScript — building clean, responsive, and user-friendly websites and interfaces.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="88%"></div></div>
+          <span class="skill-percent">88%</span>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay:0.2s">
+          <div class="skill-icon">🛠️</div>
+          <h3>Backend Dev</h3>
+          <p>Python, PHP — building functional server-side logic and database-driven applications.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="72%"></div></div>
+          <span class="skill-percent">72%</span>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay:0.3s">
+          <div class="skill-icon">🎨</div>
+          <h3>Graphic Design</h3>
+          <p>Canva, Adobe Photoshop — creating logos, posters, digital magazines, and visual branding.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
+          <span class="skill-percent">85%</span>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay:0.4s">
+          <div class="skill-icon">✏️</div>
+          <h3>UI/UX Design</h3>
+          <p>Figma — designing user-centered interfaces, wireframes, and interactive prototypes.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="78%"></div></div>
+          <span class="skill-percent">78%</span>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay:0.5s">
+          <div class="skill-icon">🗄️</div>
+          <h3>Databases</h3>
+          <p>Oracle SQL, DBMS — data modeling, queries, and building database-connected systems.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="75%"></div></div>
+          <span class="skill-percent">75%</span>
+        </div>
+
+        <div class="skill-card reveal-up" style="--delay:0.6s">
+          <div class="skill-icon">📝</div>
+          <h3>Content Writing</h3>
+          <p>Academic essays, blog posts, and technical writing — clear, creative, and well-researched content.</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="82%"></div></div>
+          <span class="skill-percent">82%</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="work section" id="work">
+    <div class="container">
+      <div class="section-label reveal-up">— Featured Work</div>
+      <h2 class="section-title reveal-up">Selected <em>Projects</em></h2>
+
+      <div class="projects-list">
+
+        <div class="project-item reveal-up">
+          <div class="project-num">01</div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Java</span><span>Oracle SQL</span><span>Eclipse</span><span>DBMS</span>
+            </div>
+            <h3>Hospital Management System</h3>
+            <p>A full-featured Hospital Management System integrating Oracle SQL Developer for data storage and retrieval. GUI screens designed in Eclipse for a user-friendly experience. The system efficiently handles patient, doctor, and appointment data with seamless frontend-backend connectivity.</p>
+            <div class="project-links">
+              <a href="#">Live Preview →</a>
+              <a href="#">Source Code →</a>
+            </div>
+          </div>
+          <div class="project-mockup mockup-finance">
+            <div class="mock-bar"></div>
+            <div class="mock-chart">
+              <div class="bar" style="height:60%"></div>
+              <div class="bar" style="height:80%"></div>
+              <div class="bar" style="height:50%"></div>
+              <div class="bar" style="height:90%"></div>
+              <div class="bar" style="height:70%"></div>
+              <div class="bar" style="height:100%"></div>
+            </div>
+            <div class="mock-stat"><span>HMS</span><small>System</small></div>
+          </div>
+        </div>
+
+        <div class="project-item reveal-up">
+          <div class="project-num">02</div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive, animated personal portfolio website showcasing my projects, skills, and experience. Built with pure HTML, CSS, and JavaScript with smooth page transitions, a book-flip layout, and a functional contact form via FormSubmit.</p>
+            <div class="project-links">
+              <a href="#">Live Site →</a>
+              <a href="#">GitHub →</a>
+            </div>
+          </div>
+          <div class="project-mockup mockup-shop">
+            <div class="mock-bar"></div>
+            <div class="mock-products">
+              <div class="mock-product"></div>
+              <div class="mock-product"></div>
+              <div class="mock-product"></div>
+            </div>
+            <div class="mock-btn">View Portfolio</div>
+          </div>
+        </div>
+
+        <div class="project-item reveal-up">
+          <div class="project-num">03</div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Canva</span><span>Photoshop</span><span>Graphic Design</span>
+            </div>
+            <h3>Digital Design Portfolio</h3>
+            <p>A collection of graphic design work including digital magazines, posters, and logos created for class projects, online competitions, and clients. Focused on visual consistency, typography, and creative storytelling.</p>
+            <div class="project-links">
+              <a href="#">View Designs →</a>
+            </div>
+          </div>
+          <div class="project-mockup mockup-app">
+            <div class="mock-phone">
+              <div class="mock-notch"></div>
+              <div class="mock-screen">
+                <div class="mock-greeting">Design Work 🎨</div>
+                <div class="mock-mood-row">
+                  <span>🖼️</span><span>✏️</span><span>🎭</span>
+                </div>
+                <div class="mock-entry-line"></div>
+                <div class="mock-entry-line short"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-item reveal-up">
+          <div class="project-num">04</div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>Python</span><span>PHP</span><span>SQL</span>
+            </div>
+            <h3>Academic Programming Projects</h3>
+            <p>A series of academic programming projects developed during my Computer Science degree, including data structure implementations, algorithm challenges, and web-based tools built using Python and PHP.</p>
+            <div class="project-links">
+              <a href="#">GitHub →</a>
+            </div>
+          </div>
+          <div class="project-mockup mockup-code">
+            <div class="mock-bar"></div>
+            <div class="mock-code-lines">
+              <div class="code-line"><span class="kw">def</span> <span class="fn">solve</span>(n):</div>
+              <div class="code-line indent"><span class="kw">return</span> n * <span class="fn">2</span></div>
+              <div class="code-line"><span class="cm"># done ✓</span></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-label reveal-up">— Kind Words</div>
+      <h2 class="section-title reveal-up">What People <em>Say</em></h2>
+      <div class="testi-grid">
+
+        <div class="testi-card reveal-up" style="--delay:0.1s">
+          <div class="testi-quote">"</div>
+          <p>Malaika's design work on our class project was outstanding. She brought creativity and attention to detail that made our presentation stand out from everyone else.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">SA</div>
+            <div>
+              <strong>Sara Ahmed</strong>
+              <span>Classmate, FJWU</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal-up" style="--delay:0.2s">
+          <div class="testi-quote">"</div>
+          <p>The content Malaika wrote for my blog was exactly what I needed — well-researched, engaging, and delivered on time. I'll definitely be working with her again.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">HK</div>
+            <div>
+              <strong>Hina Khan</strong>
+              <span>Freelance Client</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal-up" style="--delay:0.3s">
+          <div class="testi-quote">"</div>
+          <p>Malaika built a clean, responsive website for our academic event. She understood our requirements quickly and delivered a polished result we were proud to share.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">ZB</div>
+            <div>
+              <strong>Zara Baig</strong>
+              <span>Event Organiser, FJWU</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label reveal-up">— Get In Touch</div>
+      <h2 class="section-title reveal-up">Let's Work <em>Together</em></h2>
+      <p class="contact-sub reveal-up">Have a project in mind? I'd love to hear about it. Drop me a message and I'll get back within 24 hours.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <div class="contact-detail">
+            <div class="c-icon">📧</div>
+            <div>
+              <span>Email</span>
+              <a href="mailto:aroojmalaika20@gmail.com">aroojmalaika20@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="c-icon">📍</div>
+            <div>
+              <span>Location</span>
+              <a href="#">Rawalpindi, Pakistan</a>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="c-icon">💼</div>
+            <div>
+              <span>Fiverr</span>
+              <a href="https://www.fiverr.com/malaikaarooj657" target="_blank">fiverr.com/malaikaarooj657</a>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://www.facebook.com/profile.php?id=61552482955131" target="_blank" class="social-btn">Facebook</a>
+            <a href="https://www.instagram.com/aroojmalaika20/" target="_blank" class="social-btn">Instagram</a>
+            <a href="https://www.linkedin.com/in/malaika-arooj-6562542b2/" target="_blank" class="social-btn">LinkedIn</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal-right" id="contactForm" action="https://formsubmit.co/aroojmalaika20@gmail.com" method="POST">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" name="name" placeholder="Full Name" required />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="Email Address" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" name="subject" placeholder="Project Inquiry" />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea name="message" rows="5" placeholder="Tell me about your project..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">
+            <span>Send Message</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <div class="form-success" id="formSuccess">✅ Message sent! I'll get back to you soon.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo">MA<span>.</span></div>
+        <p>Building the web, one pixel at a time.</p>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Malaika Arooj. All rights reserved.</span>
+        <span>Designed & Built with ❤️</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
